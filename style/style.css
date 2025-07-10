@@ -1,6 +1,6 @@
 /* font style */
 /*nav head*/
-.inter-nav{
+.inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -93,4 +93,43 @@ main{
 }
 .action-img{
     border-radius:48px;
+}
+/* production users*/
+.Productive-section{
+    width: 1140px;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 25px;
+    align-items: center;
+    justify-items: center;
+    margin: 100px 150px;
+}
+.Productive-container{
+    width: 856px;
+    height: 210px;
+    margin: 50px 150px;
+    padding: 20px 142px;
+}
+.main-pro-head{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+.Productive-user-count{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+.Productive-p{
+    font-size: 80px;
+    font-weight: bold;
+    color:rgba(78, 71, 255, 1);
+    margin: 0px;
+    padding: 0px 9px;
+}
+.Productive-paragraph{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    padding: 0px 30px;
 }
