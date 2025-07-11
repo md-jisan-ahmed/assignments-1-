@@ -226,3 +226,52 @@ main{
     border-radius: 48px;
     margin: 0px 150px 150px 150px;
 }
+
+/* newsletter style */
+.newsletter-section{
+    width: 1140px;
+    height: 632px;
+    margin: 80px 150px;
+}
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-head{
+    font-size: 97px;
+    font-weight: bold;
+    padding: 120px 50px;
+}
+.newsletter-touch-container{
+    height: 490px;
+    width: 497px;
+    text-align: left;
+    padding: 71px 0px;
+}
+.msg-input{
+    width: 468px;
+    height: 50px;
+    margin: 10px 0px;
+    padding-left: 32px;
+    font-size: 20px;
+    border: 1px solid rgb(230, 219, 219) ;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+   
+}
+.write-msg{
+    width: 468px;
+    height: 120px;
+    margin: 10px 0px;
+    padding-left: 32px;
+    padding-bottom: 80px;
+    font-size: 20px;
+    border: 1px solid rgb(233, 223, 223) ;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.msg-btn{
+    width: 500px;
+    height: 62px;
+    margin-top: 10px;
+}
