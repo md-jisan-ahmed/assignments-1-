@@ -193,3 +193,36 @@ main{
     color:rgba(179, 179, 179, 1);
     margin: 5px 0px;
 }
+
+/* focus style*/ 
+.focus-container{
+    width: 1140px;
+    height: 696px;
+    border-radius: 15px;
+    margin: 86px 50px 50px 150px;
+    box-shadow: 0px 10px 50px 0px rgba(242, 237, 237, 1);
+}
+.focus-head{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 72px;
+    margin-bottom: 30px;
+}
+.focus-para{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0px 312px;
+}
+.focus-btn{
+    width: 195px;
+    height: 48px;
+    margin: 20px 472px;
+}
+.focus-img{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin: 0px 150px 150px 150px;
+}
