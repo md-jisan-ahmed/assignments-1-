@@ -25,6 +25,12 @@
     color: white;
     border: none;
     border-radius: 10px; 
+    cursor: pointer;
+}
+.btn-primary:hover{
+    opacity: 8;
+    background-color: yellow;
+    color: black;
 }
  
 
@@ -35,8 +41,8 @@ header{
     background-repeat: no-repeat;
     height: 700px;
     width: 1440px;
-
 }
+
 /* nav style */
 .navbar{
     display: flex;
@@ -274,4 +280,39 @@ main{
     width: 500px;
     height: 62px;
     margin-top: 10px;
+}
+
+/* footer style */
+.footer-section{
+    width: 1350px;
+    height: 350px;
+    padding: 80px 100px;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0px 10px 50px 0px rgba(242, 237, 237, 1);
+}
+.footer-head{
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 40px;
+}
+.footer-p{
+    font-size: 16px;
+    color: rgba(137, 135, 161, 1);
+    width: 531px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    gap: 35px;
+   
+}
+.footer-link a{
+    text-decoration: none;
+    color:  rgba(137, 135, 161, 1);
 }
